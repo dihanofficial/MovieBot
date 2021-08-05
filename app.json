@@ -10,8 +10,8 @@
     "API_HASH": {
       "description": "Your API_HASH from https://my.telegram.org/apps"
     },
-    "BOT_OWNER": {
-      "description": "Your username without '@'"
+    "BOT_TOKEN": {
+      "description": ""
     },
     }
   }
