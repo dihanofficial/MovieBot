@@ -1,7 +1,7 @@
 {
-  "name": "Bot-Status",
+  "name": "logo",
   "description": "A user bot for stat telegram bots online status",
-  "repository": "https://github.com/dihanofficial/botstatus/tree/Pyrogram",
+  "repository": "https://github.com/dihanofficial/logo",
   "keywords": ["telegram", "bot status", "user bot"],
   "env": {
     "API_ID": {
@@ -13,20 +13,6 @@
     "BOT_OWNER": {
       "description": "Your username without '@'"
     },
-    "BOTS": {
-      "description": "Your all bots username without '@' with a space 1 to another"
-    },
-    "UPDATE_CHANNEL": {
-      "description": "Your channel username without '@'"
-    },
-    "STATUS_MESSAGE_ID": {
-      "description": "Message id of your channel bot status message"
-    },
-    "TIME": {
-      "description": "Time for sleeping (in seconds)"
-    },
-    "SESSION_STRING":{
-      "description": "Your session strings"
     }
   }
 }
