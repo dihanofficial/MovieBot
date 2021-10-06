@@ -9,7 +9,7 @@
         "dihan official"
     ],
     "website": "dihanrandila.tk",
-    "repository": "https://github.com/dihanofficial/logo",
+    "repository": "https://github.com/dihanofficial/moviebot",
     "success_url": "https://t.me/dihanrandila",
     "env": {
         "BOT_TOKEN": {
