@@ -16,7 +16,7 @@ bot = Client(
 async def score(_, message):
     m = await message.reply_text("`Gathering Movies..`")
     try:       
-        url = "https://slmovieshd2020.blogspot.com/search/label/Dubbed"
+        url = "https://slmovieshd2020.blogspot.com/search/label/Action"
         r = requests.get(url)
         soup = BeautifulSoup(r.text, "html.parser")
         
