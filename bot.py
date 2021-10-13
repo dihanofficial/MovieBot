@@ -24,7 +24,7 @@ async def score(_, message):
         movie_title = soup.select("entry-title")
         status = soup.select("entry-excerpt excerpt")
         text = ""
-        text = text + "**🔴 𝐋𝐈𝐕𝐄 𝐈𝐏𝐋 𝐒𝐂𝐎𝐑𝐄 🏏**\n\n" + f"**{movie_image[0].text}**" + "\n\n" + f"**⦿ {movie_title[0].text}**" + "\n\n" + f"**{status[0].text}**" + "\n\n" + "**Bot by -** <a href='https://t.me/dihanrandila'>**Dihan Randila**</a>\n**Developer -** <a href='https://github.com/dihanofficial'>**Dihan**</a>"
+        text = text + "**Movies**\n\n" + f"**{movie_image[0].text}**" + "\n\n" + f"**⦿ {movie_title[0].text}**" + "\n\n" + f"**{status[0].text}**" + "\n\n" + "**Bot by -** <a href='https://t.me/dihanrandila'>**Dihan Randila**</a>\n**Developer -** <a href='https://github.com/dihanofficial'>**Dihan**</a>"
         text = text.replace("Check ", "")
         text = text.replace("(", " (")
         text = text.replace(")", ") ")
